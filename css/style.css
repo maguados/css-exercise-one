@@ -1,20 +1,20 @@
-body
+body {
   font-size: 14px;
 }
-
+/*for natvigation*/
 nav {
   background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
+}
+/*for body*/
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/* within nav*/
 h1 {
   font-family sans-serif;
   font-size: 2em;
@@ -28,9 +28,13 @@ h1 {
 h3 {
   font-size: 1.3em;
 }
-
+/*for first 6 h3 divs*/
 .element {
   background-color: green;
   height: 100px;
   margin 10px 0;
   width: 100%;
+/*for last 3 h3 divs*/
+.element-1 {
+  background-color: blue;
+}
